@@ -1,9 +1,17 @@
 class CalcController < ApplicationController
 
-  def home
+  def square_ask
     
-    render template: "calc_templates/home"
+    render template: "calc_templates/square_ask"
 
   end
+
+  def square_result
+    
+    render template: "calc_templates/square_result"
+
+  end
+
+
 
 end
